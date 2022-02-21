@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "VEX Ray Tracer #1: Initial Setup"
+title:  "🫖 Initial Setup (1)"
 categories:
-- "vex-ray-tracer"
+- "VEX Ray Tracer"
 tags:
 - "houdini"
 - "ray-tracing"

@@ -1,17 +1,15 @@
 ---
 layout: post
-title:  "VEX Ray Tracer #3: Supersampling Anti-Aliasing"
+title:  "🫖 Supersampling Anti-Aliasing (3)"
 categories:
-- "vex-ray-tracer"
+- "VEX Ray Tracer"
 tags:
 - "houdini"
 - "ray-tracing"
 - "vex"
 ---
 
-And we're back.
-
-In the last part, we projected three teapots onto our plane and gathered the color from the teapot's Cd attribute. But what you probably noticed is that our objects have very jagged/pixelated edges.
+And we're back. In the last part, we projected three teapots onto our plane and gathered the color from the teapot's Cd attribute. But what you probably noticed is that our objects have very jagged/pixelated edges.
 
 ![]({{site.baseurl}}/assets/img/vex-ray-tracer/03.001.png)
 

@@ -1,17 +1,15 @@
 ---
 layout: post
-title:  "VEX Ray Tracer #2: Plane Projection"
+title:  "🫖 Plane Projection (2)"
 categories:
-- "vex-ray-tracer"
+- "VEX Ray Tracer"
 tags:
 - "houdini"
 - "ray-tracing"
 - "vex"
 ---
 
-Now let's get into it.
-
-I read in all three elements (plane, camera and scene) into the empty ray_tracer geometry.
+Now let's get into it. I read in all three elements (plane, camera and scene) into the empty ray_tracer geometry.
 
 Make sure to choose the camOrigin Add SOP inside the camera object to only merge in a single point instead of the camera visualizer. Also, transform into the object for both the camOrigin and the plane since they probably will have object transforms.
 

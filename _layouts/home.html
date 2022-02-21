@@ -7,6 +7,7 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
+
   {{ content }}
 
 
@@ -25,7 +26,15 @@ layout: default
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">{{ post.date | date: date_format }} </span>
+
+        {%- if post.categories -%}
+          • {% for category in post.categories %}
+            <span class="post-meta">{{ category }} </span>
+            {%- if forloop.last == false %}, {% endif -%}
+          {% endfor %}
+        {%- endif -%}
+
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
