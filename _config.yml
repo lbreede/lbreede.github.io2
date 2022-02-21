@@ -5,7 +5,7 @@ author:
 description: > # this means to ignore newlines until "show_excerpts:"
   Effects TD @ Animal Logic; previously @ Method Studios & Pixomondo;
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -15,10 +15,10 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter:         grainfeeder
-    github:          lbreede
-    instagram:       grainfeeder
-    linkedin:        lennartbreede
+    twitter: grainfeeder
+    github: lbreede
+    instagram: grainfeeder
+    linkedin: lennartbreede
     youtube_channel: UCc4QO5IbdqJjjAa5712ay_Q
     # devto: jekyll
     # dribbble: jekyll
