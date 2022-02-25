@@ -7,9 +7,12 @@ tags:
 - "houdini"
 - "ray-tracing"
 - "vex"
+excerpt_separator: <!--more-->
 ---
 
 No more procrastinating. After thinking about all the different ways to put this on the internet, I decided to start a blog, and this is my first blog post.
+
+<!--more-->
 
 In August 2019, I uploaded a video on my Vimeo channel, showcasing a ray tracer written in VEX inside SideFX's Houdini.
 

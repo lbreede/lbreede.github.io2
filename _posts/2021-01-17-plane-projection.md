@@ -7,9 +7,12 @@ tags:
 - "houdini"
 - "ray-tracing"
 - "vex"
+excerpt_separator: <!--more-->
 ---
 
 Now let's get into it. I read in all three elements (plane, camera and scene) into the empty ray_tracer geometry.
+
+<!--more-->
 
 Make sure to choose the camOrigin Add SOP inside the camera object to only merge in a single point instead of the camera visualizer. Also, transform into the object for both the camOrigin and the plane since they probably will have object transforms.
 

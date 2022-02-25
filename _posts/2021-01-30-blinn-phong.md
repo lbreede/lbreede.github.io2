@@ -11,6 +11,8 @@ tags:
 
 How I've been looking forward to this part. When I wrote this ray tracer for the first time, implementing Blinn-Phong shading was one of my proudest achievements. Not because it's complicated or anything (it's actually pretty straight forward), but because it was the first time I translated a technical write up and pseudo-code into something useful for my purpose. It was also the first time where I could've stopped and have a working product.
 
+<!--more-->
+
 Nothing too impressive in a time where real-time ray tracing is the cool kid on the block. But this was my kid, ugly and slow, but mine.
 
 At this point, I would like to share two links that really helped me understand how this whole thing works and how to implement it.

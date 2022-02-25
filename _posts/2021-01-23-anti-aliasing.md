@@ -11,6 +11,8 @@ tags:
 
 And we're back. In the last part, we projected three teapots onto our plane and gathered the color from the teapot's Cd attribute. But what you probably noticed is that our objects have very jagged/pixelated edges.
 
+<!--more-->
+
 ![]({{site.baseurl}}/assets/img/vex-ray-tracer/03.001.png)
 
 That is because every pixel sends only a single ray in a single direction and hitting a single point before it reports back. 
